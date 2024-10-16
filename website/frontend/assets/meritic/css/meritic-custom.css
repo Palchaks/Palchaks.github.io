@@ -1296,6 +1296,13 @@ body {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .google-form-iframe {
+      width: 100%;
+      height: 70vh; /* A bit more height for mobile, adjust as needed */
+  }
+}
+
 /* Carousel Controls */
 .carousel-control-prev
 {
