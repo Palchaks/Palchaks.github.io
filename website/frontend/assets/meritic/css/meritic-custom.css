@@ -1263,8 +1263,7 @@ body {
   border-radius: 10px;
 }
 
-
-.issue-section-second {
+.response-section {
   align-items: center;
   justify-content: flex-start;
   padding-left: 2vw;
@@ -1272,19 +1271,28 @@ body {
   padding-bottom: 1vw;
 }
 
-
 .image-section-second img {
   max-height: 50vh;
   width: auto;
   border-radius: 10px;
-  
 }
+.phone-offset{
 
+}
 /* Hide Image on Small Devices */
 @media (max-width: 767.98px) {
   .image-section {
     width: 70vw;
     height: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+}
+
+/* Hide Image on Small Devices */
+@media (max-width: 767.98px) {
+  .phone-offset {
+    margin-bottom: 60px;
   }
 }
 
@@ -1362,4 +1370,17 @@ body {
 .learn-link {
   font-weight: 600; 
   border-bottom: 1px solid #4e1e6c;
+}
+
+/* Button Styling */
+.join-btn {
+  min-width: 150px; /* Ensures the button has a minimum width */
+  border-radius: 30px; /* Rounded button corners */
+  margin-top: 20px; /* Space between the heading and the button */
+  padding: 10px 20px; /* Padding inside the button */
+  color: #ffffff; /* White text */
+  background-color: #4e1e6c; /* Button background color */
+  border: none; /* Remove default borders */
+  font-weight: 700; /* Bold text */
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
